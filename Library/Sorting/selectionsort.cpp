@@ -7,7 +7,7 @@ void selectionsort(int A[],int n){
     for(int i=0;i<n-1;i++){
         maxi=i;
         for(int j=i;j<n;j++){
-            if(A[j]>A[maxi])
+            if(A[j]<A[maxi])
                 maxi=j;
         }
         temp=A[i];
